@@ -11,6 +11,7 @@ var express = require('express'),
 	os = require('os'),
 	admin = require('./routes/admin.js');
 
+
 var app = express();
 
 // Create function to get CPU information
