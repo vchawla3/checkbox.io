@@ -8,7 +8,6 @@ var express = require('express'),
 	study = require('./routes/study.js'),
 	admin = require('./routes/admin.js');
 	
-
 var app = express();
 
 app.configure(function () {
